@@ -2,22 +2,134 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Passed]]>
+      <![CDATA[Items 21-40 of 133
+Sort By
+ Position
+ Product Name
+ Price
+Set Descending Direction]]>
+    </line>
+    <line>
+      <![CDATA[Items 1-20 of 133
+Sort By
+ Position
+ Product Name
+ Price
+Set Descending Direction]]>
+    </line>
+    <line>
+      <![CDATA[Pagination is working]]>
+    </line>
+    <line>
+      <![CDATA[Readmore Button is working]]>
+    </line>
+    <line>
+      <![CDATA[Readless Button is working]]>
+    </line>
+    <line>
+      <![CDATA[Items 1-20 of 133
+Sort By
+ Position
+ Product Name
+ Price
+Set Descending Direction]]>
+    </line>
+    <line>
+      <![CDATA[Items 1-20 of 133
+Sort By
+ Position
+ Product Name
+ Price
+Set Descending Direction]]>
+    </line>
+    <line>
+      <![CDATA[Sortby filter & Ascending/Descending working]]>
+    </line>
+    <line>
+      <![CDATA[Price
+$100.00 - $199.99
+Remove This Item
+Manufacturer
+Fortune Healthcare, India
+Remove This Item]]>
+    </line>
+    <line>
+      <![CDATA[Manufacturer & Price filtered By Options is working]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-01-16T12:27:28 IST" name="Jenkins_gdrx" finished-at="2025-01-16T12:28:03 IST" duration-ms="34722">
+  <suite started-at="2025-01-21T13:00:15 IST" name="Default suite" finished-at="2025-01-21T13:00:35 IST" duration-ms="20481">
     <groups>
     </groups>
-    <test started-at="2025-01-16T12:27:28 IST" name="Goodrxmedicine" finished-at="2025-01-16T12:28:03 IST" duration-ms="34722">
-      <class name="Testcases.TC001">
-        <test-method signature="Order()[pri:0, instance:Testcases.TC001@506ae4d4]" started-at="2025-01-16T12:27:28 IST" name="Order" finished-at="2025-01-16T12:28:03 IST" duration-ms="34668" status="PASS">
+    <test started-at="2025-01-21T13:00:15 IST" name="Default test" finished-at="2025-01-21T13:00:35 IST" duration-ms="20481">
+      <class name="Testscripts.Verify_CategoryPage_Functionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Testscripts.Verify_CategoryPage_Functionality@537f60bf]" started-at="2025-01-21T13:00:15 IST" name="setUp" finished-at="2025-01-21T13:00:20 IST" duration-ms="5034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_Functiobality()[pri:0, instance:Testscripts.Verify_CategoryPage_Functionality@537f60bf]" started-at="2025-01-21T13:00:20 IST" name="verify_Functiobality" finished-at="2025-01-21T13:00:35 IST" duration-ms="15417" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Passed]]>
+              <![CDATA[Items 21-40 of 133
+Sort By
+ Position
+ Product Name
+ Price
+Set Descending Direction]]>
+            </line>
+            <line>
+              <![CDATA[Items 1-20 of 133
+Sort By
+ Position
+ Product Name
+ Price
+Set Descending Direction]]>
+            </line>
+            <line>
+              <![CDATA[Pagination is working]]>
+            </line>
+            <line>
+              <![CDATA[Readmore Button is working]]>
+            </line>
+            <line>
+              <![CDATA[Readless Button is working]]>
+            </line>
+            <line>
+              <![CDATA[Items 1-20 of 133
+Sort By
+ Position
+ Product Name
+ Price
+Set Descending Direction]]>
+            </line>
+            <line>
+              <![CDATA[Items 1-20 of 133
+Sort By
+ Position
+ Product Name
+ Price
+Set Descending Direction]]>
+            </line>
+            <line>
+              <![CDATA[Sortby filter & Ascending/Descending working]]>
+            </line>
+            <line>
+              <![CDATA[Price
+$100.00 - $199.99
+Remove This Item
+Manufacturer
+Fortune Healthcare, India
+Remove This Item]]>
+            </line>
+            <line>
+              <![CDATA[Manufacturer & Price filtered By Options is working]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Order -->
-      </class> <!-- Testcases.TC001 -->
-    </test> <!-- Goodrxmedicine -->
-  </suite> <!-- Jenkins_gdrx -->
+        </test-method> <!-- verify_Functiobality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testscripts.Verify_CategoryPage_Functionality@537f60bf]" started-at="2025-01-21T13:00:35 IST" name="tearDown" finished-at="2025-01-21T13:00:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testscripts.Verify_CategoryPage_Functionality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

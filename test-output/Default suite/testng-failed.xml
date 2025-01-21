@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testcases.TC001">
+      <class name="Testscripts.Verify_CategoryPage_Functionality">
         <methods>
-          <include name="Order"/>
+          <include name="verify_Functiobality"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- Testcases.TC001 -->
+      </class> <!-- Testscripts.Verify_CategoryPage_Functionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
