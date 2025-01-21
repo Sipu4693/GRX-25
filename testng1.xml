@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jenkins_gdrx" verbose="2" parallel="false">  
+  <test name="Goodrxmedicine" verbose="2">
+    <!-- Pass parameters to the test -->
+    <packages>
+      <package name="Testscripts" />
+    </packages>
+  </test>
+
+</suite>
