@@ -28,9 +28,10 @@
 		                	<configuration>
 					       <suiteXmlFiles>
 						<!--suppress UnresolvedMavenProperty -->
-					<suiteXmlFile>TestNG.xml</suiteXmlFile>2w
+					<!--<suiteXmlFile>TestNG.xml</suiteXmlFile> -->
+					<suiteXmlFile>testng1.xml</suiteXmlFile>
 				</suiteXmlFiles>
-			</configuration>
+		</configuration>
 		</plugin>
 		  </plugins>
             </build>
@@ -77,4 +78,4 @@
             <version>5.5.0</version>
                 </dependency>
 	                </dependencies>
-</project>
+                      </project>

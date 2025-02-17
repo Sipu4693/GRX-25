@@ -22,7 +22,7 @@ public class CategoryPage extends Base
 	    WebElement nextPage = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"maincontent\"]/div[5]/div/div[6]/div[1]/ul/li[6]/a")));
 	    nextPage.click();
 
-	    WebElement textElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"maincontent\"]/div[5]/div/div[4]")));
+	     WebElement textElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"maincontent\"]/div[5]/div/div[4]")));
 	    Reporter.log(textElement.getText());
 
 	    WebElement previousPage = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"maincontent\"]/div[5]/div/div[6]/div[1]/ul/li[1]/a")));
@@ -79,11 +79,12 @@ public class CategoryPage extends Base
 	public static void Readmore_Readless()  
 	{
 	   
-
+       // WebElement readMoreBtn =driver.findElement(By.xpath("//*[@id=\\\"readMoreDiscBtn\\\"]"));
 	    WebElement readMoreBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"readMoreDiscBtn\"]")));
+	  //  Base.clickElement(readMoreBtn);
 	    readMoreBtn.click();
 	    Reporter.log("Readmore Button is working");
-
+       
 	    WebElement readLessBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"readMoreDiscBtn\"]")));
 	    readLessBtn.click();
 	    Reporter.log("Readless Button is working");
